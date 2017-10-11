@@ -26,7 +26,7 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-new-age.git"
     },
     "scripts": {
-      "start": "nodemon index.js"
+      "start": "node index.js"
     },
     "dependencies": {
         "axios": "^0.16.2",
