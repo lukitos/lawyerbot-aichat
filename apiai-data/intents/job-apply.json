@@ -1,0 +1,48 @@
+{
+  "id": "6a692e2f-7401-46b4-aa9a-4ba2569b4642",
+  "name": "job-apply",
+  "auto": true,
+  "contexts": [
+    "job"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "job-application",
+      "affectedContexts": [
+        {
+          "name": "job_application",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1caa9821-4cf1-41ab-84f6-1487712ddcec",
+          "dataType": "@job-vacancy",
+          "name": "job-vacancy",
+          "value": "$job-vacancy",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Great! I\u0027ll need some information from you. Write ok when you\u0027re ready.",
+            "Ok! Let me write out some details. Type ok when you\u0027re ready."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506933150561,
+  "fallbackIntent": false,
+  "events": []
+}

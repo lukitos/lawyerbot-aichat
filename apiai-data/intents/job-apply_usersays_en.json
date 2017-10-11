@@ -1,0 +1,142 @@
+[
+  {
+    "id": "005603fa-c39b-450c-800a-62a4bd45b11c",
+    "data": [
+      {
+        "text": "I want to apply as an ",
+        "userDefined": false
+      },
+      {
+        "text": "accountant",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "56b69511-2c2b-4e02-9644-a1f37baa505c",
+    "data": [
+      {
+        "text": "I\u0027m interested in a ",
+        "userDefined": false
+      },
+      {
+        "text": "sales",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": true
+      },
+      {
+        "text": " job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e619001-e913-4e7e-93d9-4fce1051ad52",
+    "data": [
+      {
+        "text": "Please take my application as a ",
+        "userDefined": false
+      },
+      {
+        "text": "sales assistant",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8fdb2f48-d592-4c01-9432-11ed9684bd5b",
+    "data": [
+      {
+        "text": "Yes, as an ",
+        "userDefined": false
+      },
+      {
+        "text": "accountant",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bd4546f0-b24e-444d-a7b8-88080285ac3d",
+    "data": [
+      {
+        "text": "I want to apply now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5d50828f-5d92-4b9d-8034-c5add7df80da",
+    "data": [
+      {
+        "text": "Yes, I\u0027m interested.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "90536330-fc23-4ac1-ab81-3d213c8cc9bf",
+    "data": [
+      {
+        "text": "Accountant",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c10e2cb2-8675-44d0-b6a8-f2d70f35b4fa",
+    "data": [
+      {
+        "text": "Sales",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

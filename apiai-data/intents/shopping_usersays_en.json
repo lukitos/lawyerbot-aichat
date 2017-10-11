@@ -1,0 +1,26 @@
+[
+  {
+    "id": "8495bcbd-c56d-49df-ba7f-258b4ce6c79b",
+    "data": [
+      {
+        "text": "I need a gift idea",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7de7b7dc-ffe3-474f-af0b-b6a951e819f2",
+    "data": [
+      {
+        "text": "Give me some shopping idea",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

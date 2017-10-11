@@ -1,0 +1,67 @@
+{
+  "id": "44fd3ced-a301-43df-9475-9520f96641a8",
+  "name": "2-police",
+  "auto": true,
+  "contexts": [
+    "type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "police",
+      "affectedContexts": [
+        {
+          "name": "police",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Yes"
+            },
+            {
+              "title": "No"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Were the authorities involved?",
+            "Did you call the police?",
+            "Anybody contact the cops?"
+          ]
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "title": "call police",
+            "replies": [
+              "Yes",
+              "No"
+            ]
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507646784,
+  "fallbackIntent": false,
+  "events": []
+}

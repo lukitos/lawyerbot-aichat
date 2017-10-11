@@ -1,0 +1,81 @@
+{
+  "id": "b85e9891-5c62-477f-b474-23ca529426c2",
+  "name": "1-start",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "init",
+      "affectedContexts": [
+        {
+          "name": "type",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "car"
+            },
+            {
+              "title": "bike"
+            },
+            {
+              "title": "train"
+            },
+            {
+              "title": "bus"
+            },
+            {
+              "title": "motorcycle"
+            },
+            {
+              "title": "truck"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Oh gosh. I hope you are doing okay. What type of accident was this?",
+            "I\u0027m so sorry to hear that! What kind is it?",
+            "I\u0027m very sorry to hear that. I hope you\u0027re OK. Tell me what type of accident it was"
+          ]
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "title": "accident type",
+            "replies": [
+              "Car",
+              "Bike",
+              "Truck",
+              "Motorcycle",
+              "Bus",
+              "Train"
+            ]
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507650434,
+  "fallbackIntent": false,
+  "events": []
+}

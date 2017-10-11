@@ -1,0 +1,50 @@
+[
+  {
+    "id": "c2e1a566-dffb-486d-a836-058619cccba5",
+    "data": [
+      {
+        "text": "negative",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507611571
+  },
+  {
+    "id": "a05325f4-6571-4870-99b4-a2cdcff8b423",
+    "data": [
+      {
+        "text": "nope",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507611571
+  },
+  {
+    "id": "3c934630-5a3e-4f28-8f1d-0f7d0492118d",
+    "data": [
+      {
+        "text": "nah",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507611571
+  },
+  {
+    "id": "aade83c9-81a6-45c0-8816-8dc9578fe4a6",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507611571
+  }
+]

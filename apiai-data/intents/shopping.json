@@ -1,0 +1,50 @@
+{
+  "id": "803cbc99-9315-4d4c-ae76-318f6c7cea51",
+  "name": "shopping",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Google UK Headquarter",
+          "subtitle": "",
+          "formattedText": "Google has announced plans to open a new UK headquarters building in London, which the BBC reports could create up to 3,000 jobs in the country by 2020.",
+          "image": {
+            "url": "http://static6.businessinsider.com/image/582b4c26dd08955f6d8b477a-2400/google%20hq%20artist%20impression%20internal.jpg"
+          },
+          "buttons": [
+            {
+              "title": "Google plans to open a new British HQ and create 3,000 more jobs",
+              "openUrlAction": {
+                "url": "http://www.businessinsider.com/google-to-open-new-uk-hq-with-3000-jobs-2016-11"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027m happy to help",
+            "Can I interest you with some options?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506933150580,
+  "fallbackIntent": false,
+  "events": []
+}

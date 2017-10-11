@@ -1,0 +1,106 @@
+[
+  {
+    "id": "679e6d30-bb38-48db-8dcf-4ece27487232",
+    "data": [
+      {
+        "text": "Weather forecast in ",
+        "userDefined": false
+      },
+      {
+        "text": "San Francisco",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9d856579-719f-4f4e-925c-cf8bf3d0c820",
+    "data": [
+      {
+        "text": "Weather for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "16606011-89ec-4600-87c7-eeb64e8ed685",
+    "data": [
+      {
+        "text": "What is the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e0ab6b1f-57ea-41de-af84-3a2e888eec0c",
+    "data": [
+      {
+        "text": "Weather forecast",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9e7f394e-d5af-4ac2-a99f-df36ad00bab4",
+    "data": [
+      {
+        "text": "What is the weather supposed to be?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5657b83c-df4f-443f-906a-ef026852411f",
+    "data": [
+      {
+        "text": "What is the weather like?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

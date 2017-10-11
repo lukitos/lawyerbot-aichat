@@ -1,0 +1,41 @@
+{
+  "id": "11788cbf-5a81-47a9-9182-cfab16d9a595",
+  "name": "5-citation-recipient",
+  "auto": true,
+  "contexts": [
+    "citation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "citation-recipient",
+      "affectedContexts": [
+        {
+          "name": "recipient",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Who was the citation issued to?",
+            "To whom was the ticket written for?",
+            "Who got the ticket?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507645569,
+  "fallbackIntent": false,
+  "events": []
+}

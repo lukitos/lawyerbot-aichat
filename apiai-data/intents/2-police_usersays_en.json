@@ -1,0 +1,74 @@
+[
+  {
+    "id": "5ccb9c07-f3b7-4d73-9d64-f6f0bc33481d",
+    "data": [
+      {
+        "text": "bus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506885724
+  },
+  {
+    "id": "9ffbe1e3-4b35-4a9c-bc09-cfd2662604cc",
+    "data": [
+      {
+        "text": "motorcycle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506885724
+  },
+  {
+    "id": "29739828-45d0-435a-9513-250cc7ac2e0e",
+    "data": [
+      {
+        "text": "truck",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506885724
+  },
+  {
+    "id": "c275389a-af12-4a78-bf0b-e40d8aaea850",
+    "data": [
+      {
+        "text": "train",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506885724
+  },
+  {
+    "id": "7b151503-ec89-45aa-90ff-961a20f1e27c",
+    "data": [
+      {
+        "text": "car",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506885724
+  },
+  {
+    "id": "aa8bc724-bf61-472e-a013-444400e0baba",
+    "data": [
+      {
+        "text": "bike",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506885724
+  }
+]

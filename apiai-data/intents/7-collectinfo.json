@@ -1,0 +1,49 @@
+{
+  "id": "764b52a2-59aa-4d55-99a9-bf24f739faeb",
+  "name": "7-collectinfo",
+  "auto": true,
+  "contexts": [
+    "recipient"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "recipient_info",
+      "affectedContexts": [
+        {
+          "name": "collect",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fc88047e-15c3-4b24-a2c2-3db06d34a259",
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Let me collect some information from you. Type OK when you are ready",
+            "I need to get your information. Enter OK when you are ready",
+            "Please provide some information. Type OK when you\u0027re ready"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507645647,
+  "fallbackIntent": false,
+  "events": []
+}

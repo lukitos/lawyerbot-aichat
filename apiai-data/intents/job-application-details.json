@@ -1,0 +1,143 @@
+{
+  "id": "e0a1d37c-d66c-4898-9183-49e8eb8a9696",
+  "name": "job-application-details",
+  "auto": true,
+  "contexts": [
+    "job_application"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "detailed-application",
+      "affectedContexts": [
+        {
+          "name": "job_application",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0b6981a7-f70d-4daa-9483-130554fdde5e",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you write your name?"
+            },
+            {
+              "lang": "en",
+              "value": "Tell me your name"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "04205831-6fa4-4630-85fe-59cfc44ac81b",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "previous_job",
+          "value": "$previous_job",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your current job position?"
+            },
+            {
+              "lang": "en",
+              "value": "Where are you working now?"
+            },
+            {
+              "lang": "en",
+              "value": "What is your current job title?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "c443d017-fe6b-4561-9694-5eb676dddd8a",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "years_of_experience",
+          "value": "$years_of_experience",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many years of experience do you have?"
+            },
+            {
+              "lang": "en",
+              "value": "Tell me how many years of experience in the field do you have?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "dca0d3dd-2247-485b-b85c-da8a079b5aab",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "phone",
+          "value": "$phone",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Tell me your phone number"
+            },
+            {
+              "lang": "en",
+              "value": "At what number can I reach you?"
+            },
+            {
+              "lang": "en",
+              "value": "Can you give me your phone number, so we can call you?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "1e3ffc1d-b1e5-412f-a14d-edc40c71f164",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s your email address?"
+            },
+            {
+              "lang": "en",
+              "value": "Type your email"
+            },
+            {
+              "lang": "en",
+              "value": "Enter your email address"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Thank you $name for your application. My boss will call you ASAP! Have a great day!",
+            "Your application for the job #job_application.job-vacancy will be processed as soon as possible. We\u0027ll contact you shortly."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506933150566,
+  "fallbackIntent": false,
+  "events": []
+}

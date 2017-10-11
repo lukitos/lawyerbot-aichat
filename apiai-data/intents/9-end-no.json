@@ -1,0 +1,53 @@
+{
+  "id": "f0a9653e-7626-4d41-a935-ed94b3319ace",
+  "name": "9-end-no",
+  "auto": true,
+  "contexts": [
+    "collect"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "About Personal Injury Lawsuit",
+          "formattedText": "A personal injury lawsuit is simply a legal action, brought in court, by someone who has been injured (either physically or emotionally) by another person, usually by way of an accident, fall, or product malfunction.",
+          "image": {
+            "url": "http://pr4lawyers.com/sites/default/files/guidebooks/personal-injury-ny-sample-2.jpg"
+          },
+          "buttons": [
+            {
+              "title": "Personal Injury Advice",
+              "openUrlAction": {
+                "url": "https://injury-law.freeadvice.com/injury-law/injury-law/personal-injury-lawsuits.htm"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "No problem! Please do not hesitate to contact us if you have further questions",
+            "We are here for you. Come back anytime you have any other questions"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507646002,
+  "fallbackIntent": false,
+  "events": []
+}

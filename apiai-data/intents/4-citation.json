@@ -1,0 +1,67 @@
+{
+  "id": "bc48afe8-aad2-4135-87ab-de3da863358c",
+  "name": "4-citation",
+  "auto": true,
+  "contexts": [
+    "police"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "citation",
+      "affectedContexts": [
+        {
+          "name": "citation",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Yes"
+            },
+            {
+              "title": "No"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Was a citation issued?",
+            "Did the police write a ticket?",
+            "Is there a citation?"
+          ]
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "title": "citation",
+            "replies": [
+              "Yes",
+              "No"
+            ]
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507646834,
+  "fallbackIntent": false,
+  "events": []
+}

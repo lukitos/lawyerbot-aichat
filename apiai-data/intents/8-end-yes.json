@@ -1,0 +1,106 @@
+{
+  "id": "a6187e0d-77d5-4559-a3dd-1396c022c75f",
+  "name": "8-end-yes",
+  "auto": true,
+  "contexts": [
+    "collect"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "collect",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fa1b7df4-bf89-4812-acff-8be51ef98ea3",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s your name?"
+            },
+            {
+              "lang": "en",
+              "value": "Please type your name"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "e68705a9-1147-4f93-afab-8bc57631dab2",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "phone",
+          "value": "$phone",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s your phone number?"
+            },
+            {
+              "lang": "en",
+              "value": "Please enter your phone number"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "d4d094ee-c975-436f-aa16-57e81d3c6a88",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s your email address?"
+            },
+            {
+              "lang": "en",
+              "value": "Please enter your email address"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Personal Injury Brochure",
+          "formattedText": "A personal injury lawsuit is simply a legal action, brought in court, by someone who has been injured (either physically or emotionally) by another person, usually by way of an accident, fall, or product malfunction.",
+          "image": {
+            "url": "http://pr4lawyers.com/sites/default/files/guidebooks/personal-injury-ny-sample-2.jpg"
+          },
+          "buttons": [
+            {
+              "title": "Personal Injury Advice",
+              "openUrlAction": {
+                "url": "https://injury-law.freeadvice.com/injury-law/injury-law/personal-injury-lawsuits.htm"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you, $name for contacting us! One of our Personal Injury Lawyer will contact you in 1 business day"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507646046,
+  "fallbackIntent": false,
+  "events": []
+}

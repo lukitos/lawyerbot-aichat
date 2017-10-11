@@ -1,0 +1,39 @@
+{
+  "description": "",
+  "language": "en",
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "demobot-df6c7",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "1ca98217-dcc1-4325-a58e-569b113553a3",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2"
+  },
+  "defaultTimezone": "America/Denver",
+  "webhook": {
+    "url": "https://us-central1-demobot-df6c7.cloudfunctions.net/helloHttp",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": []
+}

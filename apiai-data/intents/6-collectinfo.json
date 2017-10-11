@@ -1,0 +1,41 @@
+{
+  "id": "7f50008f-c61d-47a3-8541-1c39c435b74c",
+  "name": "6-collectinfo",
+  "auto": true,
+  "contexts": [
+    "citation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "citation_info",
+      "affectedContexts": [
+        {
+          "name": "collect",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Let me collect some information from you. Type OK when you are ready",
+            "I need to get your information. Enter OK when you are ready",
+            "Please provide some information. Type OK when you\u0027re ready"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507645589,
+  "fallbackIntent": false,
+  "events": []
+}

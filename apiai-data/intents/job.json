@@ -1,0 +1,85 @@
+{
+  "id": "1ca98217-dcc1-4325-a58e-569b113553a3",
+  "name": "job",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "job-enquiry",
+      "affectedContexts": [
+        {
+          "name": "job",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Google office",
+          "formattedText": "Blue sky",
+          "image": {
+            "url": "https://betanews.com/wp-content/uploads/2016/07/Google-logo-sign-building-e1467359286734.jpg"
+          },
+          "buttons": [
+            {
+              "title": "The office",
+              "openUrlAction": {
+                "url": "www.google.com"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "accountant"
+            },
+            {
+              "title": "sales assistant"
+            },
+            {
+              "title": "not interested"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "We are looking for new staff. We need an assistant in our store. And we\u0027re looking for new accountant. Are you interested? For what position would you like to apply?",
+            "You\u0027ve come at the right time. We\u0027re just looking for new sales assistants and we need a good accountant. Would you like to apply?"
+          ]
+        },
+        {
+          "type": 2,
+          "lang": "en",
+          "title": "jobs",
+          "replies": [
+            "accountant",
+            "sales assistant",
+            "not interested"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": false,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506933150577,
+  "fallbackIntent": false,
+  "events": []
+}

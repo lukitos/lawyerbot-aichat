@@ -1,0 +1,94 @@
+[
+  {
+    "id": "24f160e0-cf2b-4332-9b83-f3ea96a17bd1",
+    "data": [
+      {
+        "text": "The citation was issued to the other party",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507645647
+  },
+  {
+    "id": "5a46193c-119f-479f-ab8a-c6d41199565c",
+    "data": [
+      {
+        "text": "The other party got the ticket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507645647
+  },
+  {
+    "id": "c6d77db5-c3b0-4c3e-bfa4-4ee4e0d784b5",
+    "data": [
+      {
+        "text": "It was issued to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507611780
+  },
+  {
+    "id": "72b999cf-d894-479d-85f2-affc53daa21b",
+    "data": [
+      {
+        "text": "Alice",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      },
+      {
+        "text": " received the citation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507611780
+  },
+  {
+    "id": "06b67b2b-d34f-44c7-8be6-dae5f53f8b23",
+    "data": [
+      {
+        "text": "I got the the ticket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507611780
+  },
+  {
+    "id": "c9af0fec-de0f-40fa-b0ca-14680836d139",
+    "data": [
+      {
+        "text": "me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507611780
+  },
+  {
+    "id": "31422157-bee6-4b30-966c-fbb69f235d4d",
+    "data": [
+      {
+        "text": "Bob",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507611780
+  }
+]
