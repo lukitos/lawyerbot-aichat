@@ -7,8 +7,8 @@ var axios = require('axios');
 
 // App setup
 var app = express();
-var server = app.listen(4000, function () {
-  console.log(`Server started: listening on port 4000`);
+var server = app.listen(process.env.PORT || 4000, function () {
+  console.log(`Server started: listening on port ${process.env.PORT}`);
 });
 
 // Static files
