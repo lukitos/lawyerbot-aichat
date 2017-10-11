@@ -1,5 +1,6 @@
 const SERVER_URL = 'http://localhost:4000';
-const API_SERVER_URL = 'http://localhost:8000/api';
+// const API_SERVER_URL = 'http://localhost:8000/api';
+const API_SERVER_URL = 'https://lawyerbot-api.herokuapp.com/api';
 
 // Make connection
 const socket = io.connect(SERVER_URL);

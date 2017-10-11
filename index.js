@@ -1,4 +1,5 @@
-const API_SERVER_URL = 'http://localhost:8000/api';
+// const API_SERVER_URL = 'http://localhost:8000/api';
+const API_SERVER_URL = 'https://lawyerbot-api.herokuapp.com/api';
 
 var express = require('express');
 var socket = require('socket.io');
