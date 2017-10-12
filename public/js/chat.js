@@ -1,7 +1,7 @@
-const SERVER_URL = 'http://localhost:4000';
+const SERVER_URL = 'http://18.221.134.160:4000';
 // const SERVER_URL = `https://lawyerbot-aichat.herokuapp.com:${process.env.PORT}`;
-// const API_SERVER_URL = 'http://localhost:8000/api';
-const API_SERVER_URL = 'https://lawyerbot-api.herokuapp.com/api';
+const API_SERVER_URL = 'http://13.59.231.79:8000/api';
+// const API_SERVER_URL = 'https://lawyerbot-api.herokuapp.com/api';
 
 // Make connection
 const socket = io.connect(SERVER_URL);
